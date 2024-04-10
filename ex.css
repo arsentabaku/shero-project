@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  margin-top:0 ;
+  padding:0;
+}
+
+.image-container {
+  text-align: center; /* Align images to the center */
+}
+
+.image-container img {
+  display: inline-block; /* Display images as inline blocks */
+  width: 150px; /* Set width of images */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px; /* Add margin around images */
+}
+.body h2{
+  text-align:center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
