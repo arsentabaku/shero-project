@@ -1,66 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Special Offers</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Offers</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Top section -->
+    <div class="flex-container" id="promotion-section">
+      <div class="flex-large">
+        <img src="./images/top-section/image1.png" alt="Eagle promotion" />
+      </div>
 
-<header class="header">
-  <div class="offer-details">
-    <img src="image1.png" alt="image1">
-  </div>
+      <div class="flex-small">
+        <div class="item-top">
+          <img
+            src="./images/top-section/image2.png"
+            alt="Voltage adjustment tool"
+          />
+        </div>
+        <div class="item-bottom">
+          <img
+            src="./images/top-section/image3.png"
+            alt="Personal Protective Equipment"
+          />
+        </div>
+      </div>
+    </div>
 
-  <div class="offer-details">
-    <img src="image3.png" alt="image3">
-  </div>
+    <main id="shop" class="products">
+      <!-- Repeat this block for each category -->
+      <div class="product">
+        <img
+          src="./images/bottom-section/tattoo_supplies.png"
+          alt="Tattoo Supplies"
+        />
+        <h2>TATTOO SUPPLIES</h2>
+        <a href="shop-tattoo.html" class="shop-button">Shop now</a>
+      </div>
 
+      <div class="product">
+        <img
+          src="./images/bottom-section/body_jewerlly (3).png"
+          alt="Body Jewerlly"
+        />
+        <h2>BODY JEWERLLY</h2>
+        <a href="shop-tattoo.html" class="shop-button">Shop now</a>
+      </div>
 
-  <div class="offer-details">
-    <img src="image2.png" alt="image2">
-  </div>
-</header>
+      <div class="product">
+        <img
+          src="./images/bottom-section/piercing_supplies.png"
+          alt="Piercing Supplies"
+        />
+        <h2>PIERCING SUPPLIES</h2>
+        <a href="shop-tattoo.html" class="shop-button">Shop now</a>
+      </div>
 
+      <div class="product">
+        <img
+          src="./images/bottom-section/medical_supplies.png"
+          alt="Medical Supplies"
+        />
+        <h2>MEDICAL SUPPLIES</h2>
+        <a href="shop-tattoo.html" class="shop-button">Shop now</a>
+      </div>
 
-<main id="shop" class="products">
-  <!-- Repeat this block for each category -->
-  <div class="product">
-    <img src="tattoo_supplies.png" alt="Tattoo Supplies">
-    <h2>TATTOO SUPPLIES</h2>
-    <a href="shop-tattoo.html" class="shop-button">Shop now</a>
-  </div>
+      <div class="product">
+        <img
+          src="./images/bottom-section/permanent_makeup(2).png"
+          alt="Permanent Makeup"
+        />
+        <h2>PERMANENT MAKEUP</h2>
+        <a href="shop-tattoo.html" class="shop-button">Shop now</a>
+      </div>
+      <!-- ... More product divs ... -->
+    </main>
 
-  <div class="product">
-    <img src="body_jewerlly (3).png" alt="Body Jewerlly">
-    <h2>BODY JEWERLLY</h2>
-    <a href="shop-tattoo.html" class="shop-button">Shop now</a>
-  </div>
-
-  <div class="product">
-    <img src="piercing_supplies.png" alt="Piercing Supplies">
-    <h2>PIERCING SUPPLIES</h2>
-    <a href="shop-tattoo.html" class="shop-button">Shop now</a>
-  </div>
-
-  <div class="product">
-    <img src="medical_supplies.png" alt="Medical Supplies">
-    <h2>MEDICAL SUPPLIES</h2>
-    <a href="shop-tattoo.html" class="shop-button">Shop now</a>
-  </div>
-
-  <div class="product">
-    <img src="permanent_makeup(2).png" alt="Permanent Makeup">
-    <h2>PERMANENT MAKEUP</h2>
-    <a href="shop-tattoo.html" class="shop-button">Shop now</a>
-  </div>
-  <!-- ... More product divs ... -->
-</main>
-
-<footer class="footer">
-  <p>&copy; 2024 Your Company Name</p>
-</footer>
-
-</body>
+    <footer class="footer">
+      <p>&copy; 2024 Your Company Name</p>
+    </footer>
+  </body>
 </html>
